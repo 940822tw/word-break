@@ -13,32 +13,23 @@ div{
 p{color : #00f}
 .n1{word-break: keep-all;}
 .n2{word-break: break-all;}
-
-.p1{white-space: nowrap;}
-.p2{white-space: pre-wrap;}
-
 .m1{word-wrap: normal;}
 .m2{word-wrap: break-word;}
 
 </style>
 <body>
-
-  <div contenteditable="true">
+<div contenteditable="true" class="m1">
     word-break: normal;<br><br>
-
  I have 10000000000000000000000000000cm and 100000 pears and love mother and father. Hang in there AABB. 100000000000000000000000000000000000 years old.
-</div>
-<div contenteditable="true" class="n1">
+</div><div contenteditable="true" class="n1 m1">
       word-break: keep-all;<br><br>
- I have 10000000000000000000000000000cm and 100000 pears and love mother and father. Hang in there AABB. 100000000000000000000000000000000000 years old.
-  </div>
-  <div class="n2" contenteditable="true">
+ I have 10000000000000000000000000000cm and 100000 pears and love mother and father. Hang in there AABB. 100000000000000000000000000000000000 years old.</div>
+  <div class="n2 m1" onmouseover="this.contenteditable=true">
     word-break: break-all;<br><br>
-
  I have 10000000000000000000000000000cm and 100000 pears and love mother and father. Hang in there AABB. 100000000000000000000000000000000000 years old.
   </div>
 <br><br>
-  <div class='m2' contenteditable="true">
+<br>  <div class='m2' contenteditable="true">
     word-break: normal; <br>word-wrap: break-word;<br><br>
 
  I have 10000000000000000000000000000cm and 100000 pears and love mother and father. Hang in there AABB. 100000000000000000000000000000000000 years old.
@@ -63,18 +54,18 @@ p{color : #00f}
 
 
 <br><br>
-  <div contenteditable="true">
+  <div contenteditable="true" class="m1">
     word-break: normal;<br><br>
 
 인천 앞바다 사이다 1000000000000000000000000000000000개와 10000000000만송이 장미, 에이에이비비 에이에이비비 에비에비이이. 헌 쳇바퀴 다람쥐 타고파
   </div>
 
-  <div class="n1" contenteditable="true">
+  <div class="n1 m1" contenteditable="true">
     word-break: keep-all;<br>
  인천 앞바다 사이다 1000000000000000000000000000000000개와 10000000000만송이 장미, 에이에이비비 에이에이비비 에비에비이이. 헌 쳇바퀴 다람쥐 타고파
   </div>
 
-  <div class="n2" contenteditable="true">
+  <div class="n2 m1" contenteditable="true">
 word-break: break-all;<br><br>
 
  인천 앞바다 사이다 1000000000000000000000000000000000개와 10000000000만송이 장미, 에이에이비비 에이에이비비 에비에비이이. 헌 쳇바퀴 다람쥐 타고파
