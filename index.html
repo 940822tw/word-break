@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<style>
+div{
+  width: 300px; border: 1px solid #aaa; display: inline-block;
+  margin-right: 150px; padding: 5px; max-height: 300px; min-height: 200px;}
+p{color : #00f}
+.n1{word-break: keep-all;}
+.n2{word-break: break-all;}
+
+.p1{white-space: nowrap;}
+.p2{white-space: pre-wrap;}
+
+.m1{word-wrap: normal;}
+.m2{word-wrap: break-word;}
+
+</style>
+<body>
+
+  <div contenteditable="true">
+    word-break: normal;<br><br>
+
+ I have 10000000000000000000000000000cm and 100000 pears and love mother and father. Hang in there AABB. 100000000000000000000000000000000000 years old.
+</div>
+<div contenteditable="true" class="n1">
+      word-break: keep-all;<br><br>
+ I have 10000000000000000000000000000cm and 100000 pears and love mother and father. Hang in there AABB. 100000000000000000000000000000000000 years old.
+  </div>
+  <div class="n2" contenteditable="true">
+    word-break: break-all;<br><br>
+
+ I have 10000000000000000000000000000cm and 100000 pears and love mother and father. Hang in there AABB. 100000000000000000000000000000000000 years old.
+  </div>
+<br><br>
+  <div class='m2' contenteditable="true">
+    word-break: normal; <br>word-wrap: break-word;<br><br>
+
+ I have 10000000000000000000000000000cm and 100000 pears and love mother and father. Hang in there AABB. 100000000000000000000000000000000000 years old.
+  </div>
+  <div class="n1 m2" contenteditable="true">
+    word-break: keep-all;<br> word-wrap: break-word;<br><br>
+
+ I have 10000000000000000000000000000cm and 100000 pears and love mother and father. Hang in there AABB. 100000000000000000000000000000000000 years old.
+  </div >
+  <div class="n2 m2" contenteditable="true">
+    word-break: break-all; <br>word-wrap: break-word;<br><br>
+
+ I have 10000000000000000000000000000cm and 100000 pears and love mother and father. Hang in there AABB. 100000000000000000000000000000000000 years old.
+  </div>
+
+  <br>
+  <br>
+<br>
+<hr>
+
+
+
+
+<br><br>
+  <div contenteditable="true">
+    word-break: normal;<br><br>
+
+인천 앞바다 사이다 1000000000000000000000000000000000개와 10000000000만송이 장미, 에이에이비비 에이에이비비 에비에비이이. 헌 쳇바퀴 다람쥐 타고파
+  </div>
+
+  <div class="n1" contenteditable="true">
+    word-break: keep-all;<br>
+ 인천 앞바다 사이다 1000000000000000000000000000000000개와 10000000000만송이 장미, 에이에이비비 에이에이비비 에비에비이이. 헌 쳇바퀴 다람쥐 타고파
+  </div>
+
+  <div class="n2" contenteditable="true">
+word-break: break-all;<br><br>
+
+ 인천 앞바다 사이다 1000000000000000000000000000000000개와 10000000000만송이 장미, 에이에이비비 에이에이비비 에비에비이이. 헌 쳇바퀴 다람쥐 타고파
+  </div>
+<br><br>
+<div  class="m2" contenteditable="true">
+word-break: normal; <br>word-wrap: break-word;<br><br>
+인천 앞바다 사이다 1000000000000000000000000000000000개와 10000000000만송이 장미, 에이에이비비 에이에이비비 에비에비이이. 헌 쳇바퀴 다람쥐 타고파
+</div>
+
+<div class="n1 m2" contenteditable="true">
+  word-break: keep-all; <br>word-wrap: break-word;<br><br>
+
+인천 앞바다 사이다 1000000000000000000000000000000000개와 10000000000만송이 장미, 에이에이비비 에이에이비비 에비에비이이. 헌 쳇바퀴 다람쥐 타고파
+</div>
+
+<div class="n2 m2" contenteditable="true">
+word-break: break-all; <br>word-wrap: break-word;<br>
+인천 앞바다 사이다 1000000000000000000000000000000000개와 10000000000만송이 장미, 에이에이비비 에이에이비비 에비에비이이. 헌 쳇바퀴 다람쥐 타고파
+</div>
+<br>
+<br>
+<br>
+
+</body>
+</html>
